@@ -8,8 +8,42 @@
 
 body {
   background: linear-gradient(135deg, #47131e, #210424);
-  color: #fff;
   overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+  padding: 7px 10px;
+}
+
+input, button {
+  outline: none;
+}
+
+.recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.alert {
+  position: relative;
+  left: 0;
+  background-color: rgba(236, 101, 101,0.23);
+  width: calc(100% - 0.4rem);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.alert h3 {
+  font-family: 'Roboto Mono';
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
 }
 
 .app-name {
@@ -19,6 +53,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  color: #fff;
 }
 
 .input-text {
@@ -30,4 +65,31 @@ body {
   font-family: 'Roboto Mono';
   font-weight: 600;
   text-align: center;
+}
+
+.input-button-text {
+  position: relative;
+  margin-top: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 22px;
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+  text-align: center;
+  color: #fff !important;
+}
+
+.iform {
+  position: relative;
+  justify-content: space-between;
+  background: rgba(255,255,255,0.123);
+  border-radius: 10px;
+  padding: 25px 30px !important;
+  text-align: center
+}
+
+input {
+  border: none;
+  background: transparent;
+  color: #fff;
 }
