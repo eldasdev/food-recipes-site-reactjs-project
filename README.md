@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+This command for install all dependencies to the our React JS Food Searching Site Project.\
+For more information about this term in here [https://reactjs.org](https://reactjs.org)
+
 ### `yarn start`
 
 Runs the app in the development mode.\
